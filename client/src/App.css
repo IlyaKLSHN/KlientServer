@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.notGrantedDiv {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 700px;
+    border-radius: 10px;
+    background: #727d88ab;
+    box-shadow: 10px 10px #020f1be3;
+    font-size: 0.9rem;
+}
+body {
+    color: white;
+    font-family: Montserrat;
+    margin: 0;
+    overflow-x: hidden;
+    height: max-content;
+}
+.avialableBusses {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -125px;
+    height: 0px;
+    width: 750px;
+}
+.userLocationDiv span {
+    color: #f108d2;
+}
+.busButton {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background: none;
+    border-radius: 0.5rem;
+    border-color: rgba(189, 19, 19, 0.379);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.busButton:hover {
+    background: rgba(108, 0, 118, 0.662);
+    border: transparent;
+}
+.spacergrid {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 9/6;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.grid {
+    background-image: url("./grid.svg");
+
+}
+.submit {
+    color: #fff;
+    background-color: #690d4e;
+    border-color: #690d4e;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    position:relative; left:-200px; top:15px;
+    border-radius: 0.3rem;
+    transition: 0.2s;
+}
+.submit:hover {
+    background-color: #646a70;
+    border-color: #00224346;
+    box-shadow: 2px 2px 0 0 #00112214;
+}
+.combobox-widgets {
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.widget-one {
+    padding: 15px 0px 15px 0px;
+    position:relative; left:-180px; top:220px;
+}
+.widget-two {
+    padding: 0px 0px 15px 0px;
+    position:relative; left:180px; top:167px;
+}
+.userLocationDiv {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px 0 0 0;
+    width: 550px;
+    padding: 1.5rem 0 1.5rem 0;
+    border-radius: 0.3rem;
+    background: #641b3fdc;
+    font-size: 1.25rem;
+    position:relative; top:-180px;
+}
